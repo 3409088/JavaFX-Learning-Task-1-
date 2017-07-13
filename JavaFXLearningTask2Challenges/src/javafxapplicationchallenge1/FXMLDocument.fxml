@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="250" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplicationchallenge1.FXMLDocumentController">
+    <children>
+        <Label layoutX="30" layoutY="30" minHeight="16" minWidth="69" fx:id="labelQuestion" />
+        <Button layoutX="90" layoutY="100" text="Ask me!" onAction="#handleButtonAction" fx:id="button" />
+        <Label layoutX="90" layoutY="150" minHeight="16" minWidth="69" fx:id="labelAnswer" />
+    </children>
+</AnchorPane>
